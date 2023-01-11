@@ -10,8 +10,22 @@ public class Ejemplo06 {
 
         int[] valor1 = {100, 1000, 200, 2000, 3000};
         int[] valor2 = {1, 2, 3, 4, 5};
-        for (int f = 0; f < 10; f++) {
+        
+        /*for (int f = 0; f < 10; f++) {
             System.out.printf("%d\n", obtenerSuma(valor1[f], valor2[f]));
+        }*/
+        
+        /*for (int f = 0; f < 10; f++) {
+            int num1 = valor1[f];
+            int num2 = valor2[f];
+            System.out.printf("El valor es: %d\n", obtenerSuma(num1, num2));
+        }*/
+        
+        for (int f = 0; f < 10; f++) {
+            int num1 = valor1[f];
+            int num2 = valor2[f];
+            int suma = obtenerSuma(num1, num2);
+            System.out.printf("El valor es: %d\n", suma);
         }
         //System.out.printf("%d\n", obtenerSuma(valor1, valor2));
         // Encontrar la suma de las posiciones
