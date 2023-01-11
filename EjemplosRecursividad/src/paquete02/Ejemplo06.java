@@ -10,7 +10,10 @@ public class Ejemplo06 {
 
         int[] valor1 = {100, 1000, 200, 2000, 3000};
         int[] valor2 = {1, 2, 3, 4, 5};
-        
+        for (int f = 0; f < 10; f++) {
+            System.out.printf("%d\n", obtenerSuma(valor1[f], valor2[f]));
+        }
+        //System.out.printf("%d\n", obtenerSuma(valor1, valor2));
         // Encontrar la suma de las posiciones
         // [0][0]
         // [1][1]
